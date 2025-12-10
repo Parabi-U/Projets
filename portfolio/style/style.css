@@ -1,0 +1,123 @@
+header {
+    background-color: grey;
+}
+
+button {
+    background-color: gray;
+}
+
+button:hover {
+    color: blue;
+}
+
+header {
+    font-size:large;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+main {
+    background-color: rgba(169, 169, 181, 0.489);
+}
+
+
+.CV {
+    background: darkslategrey;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+    text-decoration: none;
+    margin: 10%;
+}
+
+.welcome-text {
+    animation: fadeIn 1s ease-out;
+    margin-right: 6%;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+h1 {
+    text-decoration: underline;
+}
+
+
+a {
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-height: 60vh;
+    width: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.competence {
+    text-align: center;
+    justify-items:center
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    background: #007bff;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem; 
+}
+
+.accor-box {
+    padding: 2rem;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin:8%;
+    background-color: rgb(160, 173, 173);
+
+}
+
+.accordion-button{
+background-color: rgb(186, 184, 218);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(186, 184, 218)
+}
+
+.accordion-item {
+    border-radius: 8px; 
+    border: 1px solid #dee2e6; 
+    margin-bottom: 2%;
+}
+
+.accordion-body {
+    background-color:aliceblue; 
+    border-radius: 5px;
+    padding: 15px;
+}
+footer {
+    background-color: darkslategrey;
+    color: lightgrey;
+}
