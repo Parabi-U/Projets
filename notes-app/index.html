@@ -1,0 +1,27 @@
+<head>
+    <meta charset ="UTF-8">     <!-- for normal set of char-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">    <!-- makes display also compatible on mobile-->
+    <title>Modern Note Taking App</title>
+    <link rel="stylesheet" href="./style.css">    <!--load costum styles in local space-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <div id="container">
+
+            <div id="list-header">
+                <div id="addNoteDiv" onclick="popup()">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="blankDiv"> </div>
+                <div class="blankDiv"></div>
+            </div>
+
+        <div id="list-container">
+            <ul id="notes-list"></ul>
+        </div>
+        </div>
+    </main>
+ <script src="./script.js"></script>
+</body>
